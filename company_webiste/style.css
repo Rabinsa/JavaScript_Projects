@@ -1,0 +1,273 @@
+/* _________________________________________ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: #000;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+}
+
+#loader h3{
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+/* _________________________________________ */
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background: oldlace;
+    position: relative;
+}
+
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #FF5F38;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    z-index: 9;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+
+#cursor h5{
+    font-size: 1.15vw;
+    font-weight: 500;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between ;
+    padding: 3vw 3vw;
+    color: white;
+}
+
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+#page1-content h1{
+    font-family:Comic Sans MS;
+    font-size: 27vw;
+    font-weight: 100;
+    color: white;
+    line-height: 25vw ;
+}
+
+#page1-content h1 span{
+    font-family: Comic Sans MS;
+    display: inline-block;
+
+}
+
+/* _________________________________________ */
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw 2.8vw;
+    background-color: cornsilk;
+}
+
+
+
+#page2-top {
+    display: flex;
+    text-align:center ;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+}
+
+#page2-top h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    color: #333;
+    width: 50%;
+}
+
+#page2-top h4 {
+    font-size: 1.7vw;
+    color: #555;
+    font-weight: 500;
+}
+
+#elem {
+    overflow: hidden;
+}
+
+#elem h3 {
+    font-weight: 500;
+    line-height: 1.4;
+    color: #666; 
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+
+#swiperdiv{
+    height: 64.8vh;
+    width: 100%;
+    position: relative;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    width: 400px; 
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    transition: transform 0.3 ease-in-out;
+    cursor: pointer;
+}
+
+
+/* _________________________________________ */
+
+#page3{
+    background-color:cornsilk;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 1vw;
+}
+
+#page3-top{
+    text-align: center;
+}
+
+#page3-top h4{
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+#page3-top h4 span{
+    font-size: 0.7vw;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+#page3-top h2{
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+}
+
+.description img {
+    width: 100%; 
+    max-width: 400px;
+    height: 450px; 
+    margin-right: 6vw; 
+}
+
+.descriptioncontent {
+    max-width: 40rem;
+    margin: 1.5vw;
+}
+
+.descriptioncontent h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.descriptioncontent .text-animate {
+    position: relative;
+    width: 32.8rem;
+}
+
+.descriptioncontent .text-animate h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-fill-color: #FF5F38;
+    position: relative;
+}
+
+.descriptioncontent p {
+    text-align: justify;
+    margin: 0.5rem 0 4rem;
+}
+
+/* ________________________________________ */
+/* Add these styles to your existing style.css file or create a new one */
+
+/* ... Your existing styles ... */
+
+/* _________________________________________ */
+
